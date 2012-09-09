@@ -4,7 +4,8 @@ VENDOR_PATH := vendor/tg
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-	Camera
+	Camera \
+	OTAUpdateCenter
 
 PRODUCT_COPY_FILES += \
 	$(VENDOR_PATH)/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip \
